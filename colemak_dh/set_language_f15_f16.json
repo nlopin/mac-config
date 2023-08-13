@@ -1,0 +1,60 @@
+{
+  "title": "Language Toggler with F15 and F16",
+  "rules": [
+    {
+      "description": "Switch to RU",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "input_sources": [
+                {
+                  "language": "en"
+                }
+              ],
+              "type": "input_source_if"
+            }
+          ],
+          "from": {
+            "key_code": "f16"
+          },
+          "to_if_alone": [
+            {
+              "select_input_source": {
+                "input_source_id": "org.sil.ukelele.keyboardlayout..russian-universaldh"
+              }
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }, {
+      "description": "Switch to EN",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "input_sources": [
+                {
+                  "language": "ru"
+                }
+              ],
+              "type": "input_source_if"
+            }
+          ],
+          "from": {
+            "key_code": "f15"
+          },
+          "to_if_alone": [
+            {
+              "select_input_source": {
+                "input_source_id": "io.github.colemakmods.keyboardlayout.colemakdh.colemakdhmatrix"
+              }
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
