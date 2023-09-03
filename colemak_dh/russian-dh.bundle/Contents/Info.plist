@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>org.sil.ukelele.keyboardlayout.</string>
+	<string>org.sil.ukelele.keyboardlayout.russian-dh</string>
 	<key>CFBundleName</key>
-	<string></string>
+	<string>russian-dh</string>
 	<key>CFBundleVersion</key>
 	<string></string>
 	<key>KLInfo_Russian - Universal DH</key>
@@ -15,7 +15,7 @@
 		<key>TISIconIsTemplate</key>
 		<false/>
 		<key>TISInputSourceID</key>
-		<string>org.sil.ukelele.keyboardlayout..russian-universaldh</string>
+		<string>org.sil.ukelele.keyboardlayout.russian-dh.russian-universaldh</string>
 		<key>TISIntendedLanguage</key>
 		<string>ru</string>
 	</dict>
