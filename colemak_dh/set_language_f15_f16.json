@@ -2,7 +2,7 @@
   "title": "Language Toggler with F15 and F16",
   "rules": [
     {
-      "description": "Switch to RU",
+      "description": "F16 - Switch to RU",
       "manipulators": [
         {
           "conditions": [
@@ -21,7 +21,7 @@
           "to_if_alone": [
             {
               "select_input_source": {
-                "input_source_id": "org.sil.ukelele.keyboardlayout..russian-universaldh"
+                "input_source_id": "me.lopin.keyboardlayout.helix.russian-colemak"
               }
             }
           ],
@@ -29,7 +29,7 @@
         }
       ]
     }, {
-      "description": "Switch to EN",
+      "description": "F15 - Switch to EN",
       "manipulators": [
         {
           "conditions": [
@@ -48,7 +48,7 @@
           "to_if_alone": [
             {
               "select_input_source": {
-                "input_source_id": "io.github.colemakmods.keyboardlayout.colemakdh.colemakdhmatrix"
+                "input_source_id": "me.lopin.keyboardlayout.helix.english-colemak"
               }
             }
           ],
