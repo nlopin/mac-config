@@ -21,7 +21,7 @@
           "to_if_alone": [
             {
               "select_input_source": {
-                "input_source_id": "me.lopin.keyboardlayout.helix.russian-colemak"
+                "input_source_id": "me.lopin.keyboardlayout.colemak.russian-colemak"
               }
             }
           ],
@@ -48,7 +48,7 @@
           "to_if_alone": [
             {
               "select_input_source": {
-                "input_source_id": "me.lopin.keyboardlayout.helix.english-colemak"
+                "input_source_id": "me.lopin.keyboardlayout.colemak.english-colemak"
               }
             }
           ],
