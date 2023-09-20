@@ -5,7 +5,7 @@
 	<key>CFBundleIdentifier</key>
 	<string>me.lopin.keyboardlayout.colemak</string>
 	<key>CFBundleName</key>
-	<string>Colemak-DH</string>
+	<string>LopinColemak</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>KLInfo_English - Colemak</key>
