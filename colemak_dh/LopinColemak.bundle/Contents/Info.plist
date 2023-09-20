@@ -15,7 +15,7 @@
 		<key>TISIconIsTemplate</key>
 		<true/>
 		<key>TISInputSourceID</key>
-		<string>me.lopin.keyboardlayout.helix.english-colemak</string>
+		<string>me.lopin.keyboardlayout.colemak.english-colemak</string>
 		<key>TISIntendedLanguage</key>
 		<string>en</string>
 	</dict>
@@ -26,7 +26,7 @@
 		<key>TISIconIsTemplate</key>
 		<false/>
 		<key>TISInputSourceID</key>
-		<string>me.lopin.keyboardlayout.helix.russian-colemak</string>
+		<string>me.lopin.keyboardlayout.colemak.russian-colemak</string>
 		<key>TISIntendedLanguage</key>
 		<string>ru</string>
 	</dict>
