@@ -21,7 +21,7 @@
           "to_if_alone": [
             {
               "select_input_source": {
-                "input_source_id": "me.tonsky.keyboardlayout.universal.russian-universal"
+                "input_source_id": "me.lopin.keyboardlayout.colemak.russian-colemak"
               }
             }
           ],
@@ -48,7 +48,7 @@
           "to_if_alone": [
             {
               "select_input_source": {
-                "input_source_id": "me.tonsky.keyboardlayout.universal.english-universal"
+                "input_source_id": "me.lopin.keyboardlayout.colemak.english-colemak"
               }
             }
           ],
