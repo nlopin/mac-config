@@ -1,0 +1,74 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "bindings": {
+      "cmd-m": null,
+      "alt-t": null
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      // "shift shift": "file_finder::Toggle"
+      "cmd-m p": "project_panel::ToggleFocus",
+      "cmd-m o": "outline_panel::ToggleFocus",
+      "cmd-m g": "git_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "cmd-b": "editor::GoToDefinition",
+      "cmd-alt-b": "editor::GoToDefinitionSplit",
+      "cmd-[": "pane::GoBack",
+      "cmd-]": "pane::GoForward",
+      "ctrl-k": "editor::DeleteLine",
+      "ctrl-d": "editor::DuplicateLineDown",
+      "ctrl-l": "go_to_line::Toggle",
+      "ctrl-t": "editor::Rename",
+      "ctrl-shift-up": "editor::SelectLargerSyntaxNode",
+      "ctrl-shift-down": "editor::SelectSmallerSyntaxNode",
+      "ctrl-n": "editor::FindNextMatch",
+      "ctrl-p": "editor::FindPreviousMatch",
+      "cmd-up": "editor::SelectLargerSyntaxNode", // Expand Selection
+      "cmd-down": "editor::SelectSmallerSyntaxNode" // Shrink Selection
+    }
+  },
+  {
+    "context": "Editor && mode == full",
+    "use_key_equivalents": true,
+    "bindings": {
+      "cmd-o": "outline::Toggle"
+    }
+  },
+  {
+    "context": "ProjectPanel",
+    "bindings": {
+      "ctrl-c": "workspace::CopyRelativePath",
+      "enter": "project_panel::Open",
+      "ctrl-t": "project_panel::Rename"
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "cmd-k j": "pane::JoinIntoNext"
+    }
+  },
+  {
+    "context": "FileFinder || (FileFinder > Picker > Editor) || (FileFinder > Picker > menu)",
+    "use_key_equivalents": true,
+    "bindings": {
+      "cmd-alt-down": "pane::SplitDown",
+      "cmd-alt-up": "pane::SplitUp",
+      "cmd-alt-left": "pane::SplitLeft",
+      "cmd-alt-right": "pane::SplitRight"
+    }
+  }
+]
