@@ -11,6 +11,11 @@
 #    define AUDIO_PIN B5
 #endif
 
+// Home row mods: longer tapping term so fast typing doesn't trigger mods
+#define TAPPING_TERM 250
+// If a key is tapped and then held within QUICK_TAP_TERM, repeat the tap (no mod)
+#define QUICK_TAP_TERM 150
+
 #ifdef OLED_ENABLE
 #    define OLED_DISPLAY_128X64
 #    define OLED_FONT_H "keyboards/geigeigeist/klor/glcdfont.c"
